@@ -2,3 +2,10 @@
 import random
 number = random.randint(-10, 10)
 # YOUR CODE HERE
+if number > 0:
+    print(f"{number} is a poitive integer")
+elif number == 0:
+    print(f"{number} is a zero")
+else:
+    print(f"{number} is a negative integer")
+
